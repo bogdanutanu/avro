@@ -1,0 +1,10 @@
+{
+    "namespace": "com.lordbogdan",
+    "type": "record",
+    "name": "Album",
+    "fields": [
+        {"name": "title", "type": "string"},
+        {"name": "artist", "type": ["string", "null"]},
+        {"name": "year", "type": "int"}
+    ]
+}
